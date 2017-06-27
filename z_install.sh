@@ -4,7 +4,7 @@ cd
 sudo apt-get update
 sudo apt-get -y upgrade
 # get dependencies #
-sudo apt -y install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake
+sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake
 # get the coins #
 git clone https://github.com/ZencashOfficial/zen.git
 git clone https://github.com/z-classic/zclassic.git
